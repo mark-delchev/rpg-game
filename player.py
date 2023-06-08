@@ -12,5 +12,5 @@ class Player:
         head_position = (screen.get_width() // 2 - head_size // 2, screen.get_height() // 2 - head_size // 2)  # Position the head in the center of the screen
         # Clear the screen with the background color
         screen.fill(background_color)
-        points = [(0, 500), (290, 300), (600, 400)]
+        points = [(100, 100), (300, 300), (500, 500)]
         pygame.draw.polygon(screen, (255, 255, 0), points)
